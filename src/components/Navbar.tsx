@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Dropdown } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -13,6 +14,7 @@ import { CgFileDocument, CgGitFork } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
+import i18n from "../i18n";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -27,6 +29,10 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+
+  const handleOnChangeLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
 
   return (
     <Navbar
@@ -112,6 +118,38 @@ function NavBar() {
               </Button>
             </Nav.Item>
           </Nav>
+          <Dropdown className="mx-2">
+            <Dropdown.Toggle id="dropdown-autoclose-true">
+              Language
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item
+                href="#"
+                onClick={() => handleOnChangeLanguage("en")}
+              >
+                English
+              </Dropdown.Item>
+              <Dropdown.Item
+                href="#"
+                onClick={() => handleOnChangeLanguage("es")}
+              >
+                Spanish
+              </Dropdown.Item>
+              <Dropdown.Item
+                href="#"
+                onClick={() => handleOnChangeLanguage("de")}
+              >
+                German
+              </Dropdown.Item>
+              <Dropdown.Item
+                href="#"
+                onClick={() => handleOnChangeLanguage("fr")}
+              >
+                French
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </Navbar.Collapse>
       </Container>
     </Navbar>
