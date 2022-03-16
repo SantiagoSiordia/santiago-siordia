@@ -119,7 +119,12 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item
+              className="fork-btn"
+              style={{
+                alignSelf: "center",
+              }}
+            >
               <Button
                 href="https://github.com/SantiagoSiordia"
                 target="_blank"
@@ -130,7 +135,12 @@ function NavBar() {
               </Button>
             </Nav.Item>
           </Nav>
-          <Dropdown className="mx-2">
+          <Dropdown
+            className="mx-4"
+            style={{
+              marginTop: "10px",
+            }}
+          >
             <Dropdown.Toggle id="dropdown-autoclose-true">
               {languageDict[language]}
             </Dropdown.Toggle>
