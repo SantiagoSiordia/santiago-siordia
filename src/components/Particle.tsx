@@ -1,6 +1,6 @@
 import Particles from "react-tsparticles";
 
-function Particle() {
+export const Particle = () => {
   return (
     <Particles
       params={{
@@ -49,5 +49,3 @@ function Particle() {
     />
   );
 }
-
-export default Particle;

@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import boattrader from "../../Assets/Projects/boattrader.png";
 import cerby from "../../Assets/Projects/cerby.png";
 import cyberpuerta from "../../Assets/Projects/cyberpuerta.png";
-import Particle from "../Particle";
+import { Particle } from "../Particle";
 import ProjectCard from "./ProjectCards";
 
-function Projects() {
+export const Projects = () => {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -49,6 +49,4 @@ function Projects() {
       </Container>
     </Container>
   );
-}
-
-export default Projects;
+};
