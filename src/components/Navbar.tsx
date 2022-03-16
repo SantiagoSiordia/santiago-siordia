@@ -1,20 +1,18 @@
 import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import {
   AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
+  AiOutlineHome,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { CgFileDocument, CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
+import { Link } from "react-router-dom";
+import logo from "../Assets/logo.png";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -44,6 +42,7 @@ function NavBar() {
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
+            // @ts-expect-error
             updateExpanded(expand ? false : "expanded");
           }}
         >
