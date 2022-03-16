@@ -13,7 +13,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import Preloader from "./components/Pre";
 import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume/ResumeNew";
+import { ResumeNew } from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 
@@ -38,7 +38,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" exact component={Projects} />
           <Route path="/about" exact component={About} />
-          <Route path="/resume" exact component={Resume} />
+          <Route path="/resume" exact component={ResumeNew} />
           <Redirect to="/" />
         </Switch>
         <Footer />

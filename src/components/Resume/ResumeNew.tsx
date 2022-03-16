@@ -12,7 +12,7 @@ const pdf = require("../../Assets/santiago-gonzalez-siordia.pdf").default;
 const resumeLink =
   "https://raw.githubusercontent.com/santiagosiordia/santiago-siordia/master/src/Assets/santiago-gonzalez-siordia.pdf";
 
-function ResumeNew() {
+export const ResumeNew = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -45,6 +45,4 @@ function ResumeNew() {
       </Container>
     </div>
   );
-}
-
-export default ResumeNew;
+};
