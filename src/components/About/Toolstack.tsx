@@ -3,11 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiAndroidstudio,
   SiHeroku,
+  SiIntellijidea,
+  SiKalilinux,
   SiLinux,
   SiMacos,
   SiPostman,
+  SiPycharm,
   SiVercel,
   SiVisualstudiocode,
+  SiWebstorm,
   SiWindows,
   SiXcode,
 } from "react-icons/si";
@@ -41,6 +45,18 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPycharm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWebstorm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKalilinux />
       </Col>
     </Row>
   );
