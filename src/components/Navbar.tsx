@@ -10,7 +10,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+// import { ImBlog } from "react-icons/im";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 
@@ -91,7 +91,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumya-jit.tech/"
                 target="_blank"
@@ -99,11 +99,11 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/SantiagoSiordia"
                 target="_blank"
                 className="fork-btn-inner"
               >
