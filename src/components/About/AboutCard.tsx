@@ -22,9 +22,10 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "In the confrontation between the stream and the rock, the stream
+            always wins, not through strength but by perseverance."
           </p>
-          <footer className="blockquote-footer">Santiago</footer>
+          <footer className="blockquote-footer">H. Jackson Brown Jr.</footer>
         </blockquote>
       </Card.Body>
     </Card>
