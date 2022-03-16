@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const pdf = require("../../Assets/santiago-gonzalez-siordia.pdf");
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://raw.githubusercontent.com/santiagosiordia/santiago-siordia/master/src/Assets/santiago-gonzalez-siordia.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
