@@ -7,7 +7,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const pdf = require("../../Assets/santiago-gonzalez-siordia.pdf");
+const pdf = require("../../Assets/santiago-gonzalez-siordia.pdf").default;
 
 const resumeLink =
   "https://raw.githubusercontent.com/santiagosiordia/santiago-siordia/master/src/Assets/santiago-gonzalez-siordia.pdf";
