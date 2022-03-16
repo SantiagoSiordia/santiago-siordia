@@ -1,0 +1,10 @@
+{
+    "hi there": "Hi there!",
+    "i am": "I AM",
+    "languages": {
+        "spanish": "Spanish",
+        "english": "English",
+        "german": "German",
+        "french": "French"
+    }
+}

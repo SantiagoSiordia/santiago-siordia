@@ -30,8 +30,20 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
-  const handleOnChangeLanguage = (language: string) => {
+  type AvailableLanguages = "en" | "es" | "fr" | "de";
+
+  const [language, setLanguage] = useState<AvailableLanguages>("en");
+
+  const languageDict: Record<AvailableLanguages, string> = {
+    en: "English",
+    fr: "Française",
+    es: "Español",
+    de: "Deutsch",
+  };
+
+  const handleOnChangeLanguage = (language: AvailableLanguages) => {
     i18n.changeLanguage(language);
+    setLanguage(language);
   };
 
   return (
@@ -120,34 +132,30 @@ function NavBar() {
           </Nav>
           <Dropdown className="mx-2">
             <Dropdown.Toggle id="dropdown-autoclose-true">
-              Language
+              {languageDict[language]}
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item
-                href="#"
-                onClick={() => handleOnChangeLanguage("en")}
-              >
-                English
-              </Dropdown.Item>
-              <Dropdown.Item
-                href="#"
-                onClick={() => handleOnChangeLanguage("es")}
-              >
-                Spanish
-              </Dropdown.Item>
-              <Dropdown.Item
-                href="#"
-                onClick={() => handleOnChangeLanguage("de")}
-              >
-                German
-              </Dropdown.Item>
-              <Dropdown.Item
-                href="#"
-                onClick={() => handleOnChangeLanguage("fr")}
-              >
-                French
-              </Dropdown.Item>
+              {language !== "en" && (
+                <Dropdown.Item onClick={() => handleOnChangeLanguage("en")}>
+                  English
+                </Dropdown.Item>
+              )}
+              {language !== "es" && (
+                <Dropdown.Item onClick={() => handleOnChangeLanguage("es")}>
+                  Español
+                </Dropdown.Item>
+              )}
+              {language !== "de" && (
+                <Dropdown.Item onClick={() => handleOnChangeLanguage("de")}>
+                  Deutsch
+                </Dropdown.Item>
+              )}
+              {language !== "fr" && (
+                <Dropdown.Item onClick={() => handleOnChangeLanguage("fr")}>
+                  Française
+                </Dropdown.Item>
+              )}
             </Dropdown.Menu>
           </Dropdown>
         </Navbar.Collapse>
