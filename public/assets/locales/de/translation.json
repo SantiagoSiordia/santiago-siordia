@@ -6,5 +6,8 @@
         "english": "Englisch",
         "german": "Deutsch",
         "french": "Französisch"
+    },
+    "footer": {
+        "designed and developed by": "Entworfen und entwickelt von"
     }
 }
