@@ -1,0 +1,21 @@
+{
+    "hi there": "Hi there!",
+    "i am": "I AM",
+    "languages": {
+        "spanish": "Spanish",
+        "english": "English",
+        "german": "German",
+        "french": "French"
+    },
+    "footer": {
+        "designed and developed by": "Designed and developed by"
+    },
+    "typewriter": {
+        "cybersecurity expert": "Cybersecurity expert",
+        "ethical hacker": "Ethical Hacker",
+        "mobile developer": "Mobile Developer",
+        "javascript junkie": "JavaScript Junkie",
+        "react native engineer": "React Native Engineer",
+        "tech lover": "Tech lover"
+    }
+}
