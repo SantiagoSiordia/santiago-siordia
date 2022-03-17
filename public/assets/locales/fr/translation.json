@@ -1,6 +1,14 @@
 {
     "hi there": "Salut!",
     "i am": "JE M'APPELE",
+    "home 2": {
+        "let me": "LAISSE MOI ME",
+        "introduce": "PRÉSENTER",
+        "myself": "",
+        "keys": {
+            "first line": "Je suis tombé amoureux du code et j'aime apprendre de nouvelles choses!"
+        }
+    },
     "languages": {
         "spanish": "Espagnole",
         "english": "Anglaise",

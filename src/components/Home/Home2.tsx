@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -10,16 +11,20 @@ import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
 
 export const Home2 = () => {
+  const { t } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              {t("home 2.let me")}{" "}
+              <span className="purple"> {t("home 2.introduce")} </span>{" "}
+              {t("home 2.myself")}
             </h1>
             <p className="home-about-body">
-              I fell in love with code and I like learning new stuff! 💻
+              {t("home 2.keys.first line")} 💻
               <br />
               <br />I am fluent in classics like
               <i>
@@ -108,4 +113,4 @@ export const Home2 = () => {
       </Container>
     </Container>
   );
-}
+};

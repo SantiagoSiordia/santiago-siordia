@@ -1,6 +1,14 @@
 {
     "hi there": "Hi there!",
     "i am": "I AM",
+    "home 2": {
+        "let me": "LET ME",
+        "introduce": "INTRODUCE",
+        "myself": "MYSELF",
+        "keys": {
+            "first line": "I fell in love with code and I like learning new stuff!"
+        }
+    },
     "languages": {
         "spanish": "Spanish",
         "english": "English",
