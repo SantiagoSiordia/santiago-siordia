@@ -1,6 +1,17 @@
 {
     "hi there": "Hallo!",
     "i am": "ICH HEIßE",
+    "and": "und",
+    "home 2": {
+        "let me": "LASSEN SIE MICH IHNEN",
+        "introduce": "VORSTELLEN",
+        "myself": "",
+        "keys": {
+            "first line": "Ich habe mich in Code verliebt und lerne gerne neue Sachen!",
+            "second line": "Ich beherrsche Klassiker wie",
+            "after second line": "fließend"
+        }
+    },
     "languages": {
         "spanish": "Spanisch",
         "english": "Englisch",
