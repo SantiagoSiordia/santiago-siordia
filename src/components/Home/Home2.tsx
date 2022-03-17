@@ -26,10 +26,15 @@ export const Home2 = () => {
             <p className="home-about-body">
               {t("home 2.keys.first line")} 💻
               <br />
-              <br />I am fluent in classics like
+              <br />
+              {t("home 2.keys.second line")}
               <i>
-                <b className="purple"> Javascript, Python and TypeScript. </b>
+                <b className="purple">
+                  {" "}
+                  Javascript, Python {t("and")} TypeScript{" "}
+                </b>
               </i>
+              {t("home 2.keys.after second line")}
               <br />
               <br />
               My field of Interest's are building new

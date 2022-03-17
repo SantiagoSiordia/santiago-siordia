@@ -1,12 +1,15 @@
 {
     "hi there": "Salut!",
     "i am": "JE M'APPELE",
+    "and": "et",
     "home 2": {
         "let me": "LAISSE MOI ME",
         "introduce": "PRÉSENTER",
         "myself": "",
         "keys": {
-            "first line": "Je suis tombé amoureux du code et j'aime apprendre de nouvelles choses!"
+            "first line": "Je suis tombé amoureux du code et j'aime apprendre de nouvelles choses!",
+            "second line": "Je maîtrise les classiques comme",
+            "after second line": ""
         }
     },
     "languages": {

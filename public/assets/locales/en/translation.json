@@ -1,12 +1,15 @@
 {
     "hi there": "Hi there!",
     "i am": "I AM",
+    "and": "and",
     "home 2": {
         "let me": "LET ME",
         "introduce": "INTRODUCE",
         "myself": "MYSELF",
         "keys": {
-            "first line": "I fell in love with code and I like learning new stuff!"
+            "first line": "I fell in love with code and I like learning new stuff!",
+            "second line": "I am fluent in classics like",
+            "after second line": ""
         }
     },
     "languages": {
