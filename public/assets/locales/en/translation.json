@@ -9,5 +9,13 @@
     },
     "footer": {
         "designed and developed by": "Designed and developed by"
+    },
+    "typewriter": {
+        "cybersecurity expert": "Cybersecurity expert",
+        "ethical hacker": "Ethical Hacker",
+        "mobile developer": "Mobile Developer",
+        "javascript junkie": "JavaScript Junkie",
+        "react native engineer": "React Native Engineer",
+        "tech lover": "Tech lover"
     }
 }
