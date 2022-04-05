@@ -21,16 +21,14 @@ export const Projects = () => {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cerby}
-              isBlog={false}
               title="Cerby"
               description="Cerby is a tool that allows you to share passwords among members of your company in a super secure way."
-              link="https://www.cerby.com/"
+              link="https://play.google.com/store/apps/details?id=com.cerby&hl=en&gl=US"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cyberpuerta}
-              isBlog={false}
               title="Cyberpuerta"
               description="Cyberpuerta is the fastest growing technology e-commerce in Mexico. Alongside another great developer, I started developing their mobile app. Some other cool devs joined us in our way there. It's currently only available in the Google PlayStore"
               link="https://play.google.com/store/apps/details?id=com.cyberpuerta"
@@ -39,10 +37,9 @@ export const Projects = () => {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={boattrader}
-              isBlog={false}
               title="Boat trader"
               description="As a member of the Mobile Team 'Aistream'. I developed features in three different Mobile Apps: Annonces du Bateau, Boattrader and Yachtworld."
-              link="https://www.boattrader.com/"
+              link="https://play.google.com/store/apps/details?id=com.boatsgroup.boattrader&hl=en&gl=US"
             />
           </Col>
         </Row>
