@@ -32,8 +32,8 @@ export const Projects = () => {
               imgPath={cyberpuerta}
               isBlog={false}
               title="Cyberpuerta"
-              description="Cyberpuerta is the fastest growing technology e-commerce in Mexico. Alongside another great developer, I started developing their mobile app. Some other cool devs joined us in our way there."
-              link="https://www.cyberpuerta.com/"
+              description="Cyberpuerta is the fastest growing technology e-commerce in Mexico. Alongside another great developer, I started developing their mobile app. Some other cool devs joined us in our way there. It's currently only available in the Google PlayStore"
+              link="https://play.google.com/store/apps/details?id=com.cyberpuerta"
             />
           </Col>
           <Col md={4} className="project-card">
