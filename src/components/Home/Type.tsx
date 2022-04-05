@@ -9,8 +9,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          t("typewriter.cybersecurity expert"),
-          t("typewriter.ethical hacker"),
+          // t("typewriter.cybersecurity expert"),
+          // t("typewriter.ethical hacker"),
           t("typewriter.mobile developer"),
           t("typewriter.javascript junkie"),
           t("typewriter.react native engineer"),
