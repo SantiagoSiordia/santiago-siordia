@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.51894814.chunk.css",
-    "main.js": "/static/js/main.fb21b434.chunk.js",
-    "main.js.map": "/static/js/main.fb21b434.chunk.js.map",
+    "main.js": "/static/js/main.cd98d6d2.chunk.js",
+    "main.js.map": "/static/js/main.cd98d6d2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1aca6658.js",
     "runtime-main.js.map": "/static/js/runtime-main.1aca6658.js.map",
     "static/css/2.13232aab.chunk.css": "/static/css/2.13232aab.chunk.css",
@@ -22,13 +22,13 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs",
     "static/media/style.css": "/static/media/pre.d4812f51.svg",
     "static/media/home-main.541f8179.svg": "/static/media/home-main.541f8179.svg",
-    "static/media/santiago-gonzalez-siordia.pdf": "/static/media/santiago-gonzalez-siordia.25d50761.pdf"
+    "static/media/santiago-gonzalez-siordia.pdf": "/static/media/santiago-gonzalez-siordia.08639bd4.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.1aca6658.js",
     "static/css/2.13232aab.chunk.css",
     "static/js/2.fd1feb78.chunk.js",
     "static/css/main.51894814.chunk.css",
-    "static/js/main.fb21b434.chunk.js"
+    "static/js/main.cd98d6d2.chunk.js"
   ]
 }
