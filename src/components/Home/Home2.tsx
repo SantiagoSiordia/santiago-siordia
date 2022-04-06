@@ -37,11 +37,15 @@ export const Home2 = () => {
               {t("home 2.keys.after second line")}
               <br />
               <br />
-              My field of Interest's are building new
+              {t("home 2.keys.third line")}
               <i>
-                <b className="purple">Mobile Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Backend Development</b>
+                <b className="purple">
+                  {t("home 2.keys.third line first purple")}
+                </b>
+                {t("home 2.keys.third line back to white")}
+                <b className="purple">
+                  {t("home 2.keys.third line last purple")}
+                </b>
               </i>
               <br />
               <br />

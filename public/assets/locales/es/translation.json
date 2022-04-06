@@ -9,7 +9,11 @@
         "keys": {
             "first line": "Estoy enamorado del código y me gusta aprender nuevas cosas!",
             "second line": "Soy fluido en clásicos como",
-            "after second line": ""
+            "after second line": "",
+            "third line": "Mis campos de interés son la construcción de nuevas ",
+            "third line first purple": "Tecnologías y productos móviles ",
+            "third line back to white": "y también áreas relacionadas con el ",
+            "third line last purple": "Desarrollo backend."
         }
     },
     "languages": {
