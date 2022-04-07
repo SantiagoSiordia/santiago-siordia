@@ -2,6 +2,8 @@
     "hi there": "Hi there!",
     "i am": "I AM",
     "and": "and",
+    "like": "like",
+    "with": "with",
     "home 2": {
         "let me": "LET ME",
         "introduce": "INTRODUCE",
@@ -13,7 +15,9 @@
             "third line": "My fields of interest are building new ",
             "third line first purple": "Mobile Technologies and Products ",
             "third line back to white": "and also in areas related to ",
-            "third line last purple": "Backend Development"
+            "third line last purple": "Backend Development",
+            "fourth line": "Whenever possible, I also apply my passion for developing products ",
+            "fourth line first purple": "Modern Javascript Library and Frameworks"
         }
     },
     "languages": {

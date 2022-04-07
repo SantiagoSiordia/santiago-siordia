@@ -49,17 +49,17 @@ export const Home2 = () => {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              {t("home 2.keys.fourth line")}
+              {t("with")} <b className="purple">Node.js</b> {t("and")}{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  {t("home 2.keys.fourth line first purple")}
                 </b>
               </i>
-              &nbsp; like
+              &nbsp;
+              {t("like")}
               <i>
-                <b className="purple"> React.js and React Native</b>
+                <b className="purple"> React.js {t("and")} React Native</b>
               </i>
             </p>
           </Col>
