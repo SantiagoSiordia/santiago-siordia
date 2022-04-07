@@ -2,6 +2,8 @@
     "hi there": "Salut!",
     "i am": "JE M'APPELE",
     "and": "et",
+    "like": "comme",
+    "with": "avec",
     "home 2": {
         "let me": "LAISSE MOI ME",
         "introduce": "PRÉSENTER",
@@ -13,7 +15,9 @@
             "third line": "Mes domaines d'intérêt sont la construction de nouvelles ",
             "third line first purple": "Technologies et produits mobiles ",
             "third line back to white": "ainsi que les domaines liés au ",
-            "third line last purple": "Développement backend"
+            "third line last purple": "Développement backend",
+            "fourth line": "Dans la mesure du possible, j'applique également ma passion pour le développement de produits ",
+            "fourth line first purple": "Bibliothèque et cadres Javascript modernes"
         }
     },
     "languages": {

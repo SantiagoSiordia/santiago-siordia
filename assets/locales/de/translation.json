@@ -2,6 +2,8 @@
     "hi there": "Hallo!",
     "i am": "ICH HEIßE",
     "and": "und",
+    "like": "wie",
+    "with": "mit",
     "home 2": {
         "let me": "LASSEN SIE MICH IHNEN",
         "introduce": "VORSTELLEN",
@@ -13,7 +15,9 @@
             "third line": "Meine Interessensgebiete sind der Aufbau neuer ",
             "third line first purple": "Mobiler technologien und Produkte ",
             "third line back to white": "sowie Bereiche im Zusammenhang mit der ",
-            "third line last purple": "Backend-Entwicklung"
+            "third line last purple": "Backend-Entwicklung",
+            "fourth line": "Wenn immer möglich, setze ich meine Leidenschaft auch für die Entwicklung von Produkten ein ",
+            "fourth line first purple": "Moderne JavaScript-Frameworks"
         }
     },
     "languages": {
