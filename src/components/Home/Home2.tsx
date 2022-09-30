@@ -73,7 +73,7 @@ export const Home2 = () => {
           <Col md={12} className="home-about-social">
             <h1>{t("find me on")}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              {t("feel free to")}<span className="purple"> {t("connect")} </span>{t("with me")}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
