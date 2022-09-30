@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { useTranslation } from "react-i18next";
 import {
   AiFillStar,
   AiOutlineFundProjectionScreen,
@@ -11,7 +12,6 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
-// import { ImBlog } from "react-icons/im";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import i18n from "../i18n";
@@ -19,6 +19,8 @@ import i18n from "../i18n";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  const { t } = useTranslation();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -72,7 +74,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> {t("navbar.home")}
               </Nav.Link>
             </Nav.Item>
 
@@ -82,7 +84,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> {t("navbar.about")}
               </Nav.Link>
             </Nav.Item>
 
@@ -95,7 +97,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                {t("navbar.projects")}
               </Nav.Link>
             </Nav.Item>
 
@@ -105,7 +107,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> {t("navbar.resume")}
               </Nav.Link>
             </Nav.Item>
 
