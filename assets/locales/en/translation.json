@@ -5,6 +5,15 @@
     "like": "like",
     "with": "with",
     "find me on": "FIND ME ON",
+    "feel free to": "Feel free to",
+    "connect": "connect",
+    "with me": "with me",
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "projects": "Projects"
+    },
     "home 2": {
         "let me": "LET ME",
         "introduce": "INTRODUCE",

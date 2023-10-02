@@ -5,6 +5,15 @@
     "like": "como",
     "with": "con",
     "find me on": "ENCUÉNTRAME EN",
+    "feel free to": "Siéntete libre de",
+    "connect": "conectarte",
+    "with me": "conmigo",
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "resume": "Currículum"
+    },
     "home 2": {
         "let me": "PERMÍTEME",
         "introduce": "PERESENTARME",
