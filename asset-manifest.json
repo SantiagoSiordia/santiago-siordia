@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.51894814.chunk.css",
-    "main.js": "/static/js/main.1812e3b0.chunk.js",
-    "main.js.map": "/static/js/main.1812e3b0.chunk.js.map",
+    "main.js": "/static/js/main.a6c55dc0.chunk.js",
+    "main.js.map": "/static/js/main.a6c55dc0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1aca6658.js",
     "runtime-main.js.map": "/static/js/runtime-main.1aca6658.js.map",
     "static/css/2.13232aab.chunk.css": "/static/css/2.13232aab.chunk.css",
-    "static/js/2.70b984a5.chunk.js": "/static/js/2.70b984a5.chunk.js",
-    "static/js/2.70b984a5.chunk.js.map": "/static/js/2.70b984a5.chunk.js.map",
+    "static/js/2.703ae99e.chunk.js": "/static/js/2.703ae99e.chunk.js",
+    "static/js/2.703ae99e.chunk.js.map": "/static/js/2.703ae99e.chunk.js.map",
     "static/js/3.d6d93ace.chunk.js": "/static/js/3.d6d93ace.chunk.js",
     "static/js/3.d6d93ace.chunk.js.map": "/static/js/3.d6d93ace.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.13232aab.chunk.css.map": "/static/css/2.13232aab.chunk.css.map",
     "static/css/main.51894814.chunk.css.map": "/static/css/main.51894814.chunk.css.map",
-    "static/js/2.70b984a5.chunk.js.LICENSE.txt": "/static/js/2.70b984a5.chunk.js.LICENSE.txt",
+    "static/js/2.703ae99e.chunk.js.LICENSE.txt": "/static/js/2.703ae99e.chunk.js.LICENSE.txt",
     "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/avatar.5852f40f.svg": "/static/media/avatar.5852f40f.svg",
     "static/media/boattrader.44a37648.png": "/static/media/boattrader.44a37648.png",
@@ -22,13 +22,13 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs",
     "static/media/style.css": "/static/media/pre.d4812f51.svg",
     "static/media/home-main.541f8179.svg": "/static/media/home-main.541f8179.svg",
-    "static/media/santiago-gonzalez-siordia.pdf": "/static/media/santiago-gonzalez-siordia.c376cfe7.pdf"
+    "static/media/santiago-gonzalez-siordia.pdf": "/static/media/santiago-gonzalez-siordia.5eba61b9.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.1aca6658.js",
     "static/css/2.13232aab.chunk.css",
-    "static/js/2.70b984a5.chunk.js",
+    "static/js/2.703ae99e.chunk.js",
     "static/css/main.51894814.chunk.css",
-    "static/js/main.1812e3b0.chunk.js"
+    "static/js/main.a6c55dc0.chunk.js"
   ]
 }
