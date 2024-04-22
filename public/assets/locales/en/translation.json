@@ -46,5 +46,11 @@
         "javascript junkie": "JavaScript Junkie",
         "react native engineer": "React Native Engineer",
         "tech lover": "Tech lover"
+    },
+    "resume": {
+        "currentPage": "Page {{pageNumber}} of {{totalPages}}",
+        "download": "Download",
+        "nextPage": "Next page",
+        "previousPage": "Previous page"
     }
 }
